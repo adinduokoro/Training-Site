@@ -1,5 +1,24 @@
-body {
+*,*::before,*::after{
   margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root{
+  --main-color: #429BCE;
+  --second-main-color: #002D4E;
+  --bg-color: #000;
+  --second-bg-color: #9C9A9D;
+  --text-color: #F0EdEE;
+}
+
+body {
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
