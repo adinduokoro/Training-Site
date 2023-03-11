@@ -41,7 +41,7 @@
 
 .navbarBottom button{
   width: 10rem;
-  height: 5rem;
+  height: 4rem;
   border: 2px solid var(--main-color);
   background-color: var(--bg-color);
   font-size: 1.25rem;
@@ -55,6 +55,11 @@
 
 .navbarBottom button:hover{
   background-color: var(--main-color);
+  color: var(--bg-color);
+}
+
+.navbarBottom .mobile__nav{
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -69,6 +74,44 @@
   .navbarBottom .nav__menu{
     display: none;
   }
+  
+  .navbarBottom .mobile__nav{
+    box-shadow: 0 40px 60px rgba(0, 0, 0, .9);
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background-color: var(--bg-color);
+    top: 129px;
+    right: -300px;
+    padding: 100px 50px;
+    transition: .3s ease-in-out;
+  }
+
+  .navbarBottom #mobile__menu.active{
+    right: 0px;
+  }
+
+  .navbarBottom .mobile__nav li{
+    margin-bottom: 5rem;
+  }
+
+  .navbarBottom .mobile__nav p{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--text-color);
+    transition: .3s ease-in-out;
+  }
+
+  .navbarBottom .mobile__nav p:hover{
+    color: var(--main-color);
+  }
+
+  .navbarBottom .mobile__nav button{
+    display: none;
+  }
+
 }
 
 
