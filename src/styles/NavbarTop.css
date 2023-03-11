@@ -1,0 +1,17 @@
+.navbarTop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2.5%;
+}
+
+.navbarTop .navbarTop__contact{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navbarTop i {
+  font-size: 2.5rem;
+  scale: 1;
+}

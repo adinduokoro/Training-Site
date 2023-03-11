@@ -7,6 +7,7 @@
   text-decoration: none;
   box-sizing: border-box;
   font-size: 62.5%;
+  color: var(--text-color);
 }
 
 :root{
@@ -17,11 +18,25 @@
   --text-color: #F0EdEE;
 }
 
+html {
+  position: relative;
+  /* min-height: 100%;  */
+  /* might need to delete later because of screen issues*/
+}
+
+h1 {font-size: 3rem;}
+
+h2 {font-size: 2rem;}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
 body {
   overflow-x: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
