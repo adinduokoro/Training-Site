@@ -24,7 +24,7 @@ const NavbarBottom = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="menu__icons" onClick={handleClick}>
-        <i className={clicked ? "bx bx-menu" : "bx bx-x"}></i>
+        <i className={clicked ? "bx bx-x" : "bx bx-menu"}></i>
       </div>
 
       {/* NAVBAR MENU */}
