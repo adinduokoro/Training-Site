@@ -1,0 +1,15 @@
+.aboutUs{
+  background-color: var(--bg-color);
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.aboutUs__container{
+  border: 2px solid green;
+  height: 65vh;
+  width: 90%;
+  position: relative;
+}
