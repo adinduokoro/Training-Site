@@ -3,7 +3,7 @@ import "../styles/NavbarTop.css"
 
 const NavbarTop = () => {
   return (
-    <div className='navbarTop'>
+    <div className='navbarTop' id='home'>
       <div className="navbarTop__contact">
         <p>+1 443-630-3752</p>
         <p>washington-direct@gmail.com</p>

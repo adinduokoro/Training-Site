@@ -4,7 +4,7 @@ import heroImg from '../images/hero-pic.jpg'
 
 const Hero = () => {
   return (
-    <section className="hero" id='home'>
+    <section className="hero">
       <img src={heroImg} alt="" />
       <div className="overlay"></div>
       <div className="hero__info">
