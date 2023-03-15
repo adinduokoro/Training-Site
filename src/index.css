@@ -24,6 +24,11 @@ html {
   /* might need to delete later because of screen issues*/
 }
 
+section{
+  min-height: calc(100vh - 129px) ;
+  padding: 0 9%;
+}
+
 h1 {font-size: 3rem;}
 
 h2 {font-size: 2rem;}
@@ -37,8 +42,7 @@ p {
 body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
