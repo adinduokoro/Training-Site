@@ -46,7 +46,7 @@
 }
 
 .aboutUs .aboutUs__text h2{
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 800;
   white-space: nowrap;
   margin-bottom: 1rem;
@@ -55,7 +55,7 @@
   0px 18px 23px rgba(0,0,0,0.1);
 }
 
-.aboutUs .aboutUs__text p, span{
+.aboutUs .aboutUs__text .aboutus, span{
   font-size: 1.5rem;
 }
 
