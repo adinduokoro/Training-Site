@@ -14,8 +14,9 @@
   --main-color: #429BCE;
   --second-main-color: #002D4E;
   --bg-color: #000;
-  --second-bg-color: #9C9A9D;
+  --second-bg-color: #545454;
   --text-color: #F0EdEE;
+  --second-text-color: #000;
 }
 
 html {
@@ -42,6 +43,7 @@ p {
 body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 
 }
 
