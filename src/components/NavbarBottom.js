@@ -57,7 +57,7 @@ const NavbarBottom = () => {
           nav.map((item, index) =>{
             return(
               <li>
-                <Link smooth to={item.path} scroll={el => scrollWithOffset(el, 129)}><p>{item.text}</p></Link>
+                <Link onClick={closeMenu} smooth to={item.path} scroll={el => scrollWithOffset(el, 129)}><p>{item.text}</p></Link>
               </li>
             )
           })

@@ -1,4 +1,102 @@
 
 .classes{
   background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.classes .classes__container{
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.classes .classes__container h2, .classtitle{
+  font-size: 4rem;
+  font-weight: 800;
+  white-space: nowrap;
+  padding: 2rem;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
+  0px 8px 13px rgba(0,0,0,0.1), 
+  0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.classes .classes__container span{
+  color: var( --main-color);
+}
+
+.classes .package__container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+  width: 100%;
+  height: 50vh;
+}
+
+.classes .left{
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.classes .left img{
+  width: 45%;
+}
+
+.classes .left .info__text{
+  width: 100%;
+  background-color: var(--second-bg-color);
+  border: 2px solid var(--text-color);
+  z-index: 5;
+
+}
+
+.classes .right{
+  flex: 1;
+}
+
+.classes .left .class__title{
+  color: var(--second-text-color);
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.classes .left .class__sub{
+  font-size: 25px;
+}
+
+.classes .right .course__title{
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.classes .right .price__card{
+  display: flex;
+  margin-bottom: 2.75rem;
+}
+
+.classes .right .price__card{
+
+}
+
+.classes .right .price__line{
+  width: 100%;
+  color: var(--text-color);
+  border-bottom: 1px dashed var(--text-color);
+}
+
+.classes .right .course__price{
+  font-size: 13px;
+}
+
+.classes .disclaimer{
+  text-align: center;
+  font-size: 13px;
+  color: var(--second-bg-color);
 }

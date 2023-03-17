@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
 import WhatWeOffer from "./components/WhatWeOffer";
 import Classes from "./components/Classes";
+import Location from "./components/Location";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AboutUs />
       <WhatWeOffer />
       <Classes />
+      <Location />
     </div>
   );
 }
