@@ -15,8 +15,8 @@ function App() {
       <AboutUs />
       <WhatWeOffer />
       <Classes />
-      <Location />
       <Gallery />
+      <Location />
       <Contact />
     </div>
   );
