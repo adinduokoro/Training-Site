@@ -21,7 +21,7 @@
 
 html {
   position: relative;
-  /* min-height: 100%;  */
+  min-width: 425px; 
   /* might need to delete later because of screen issues*/
 }
 
@@ -44,7 +44,7 @@ body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
-  
+  background-color: var(--bg-color);
 }
 
 code {

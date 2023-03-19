@@ -40,7 +40,7 @@
 }
 
 .location .location__info .left .location__img{
-  width: 90%;
+  width: 100%;
   height: 90%;
 }
 
@@ -113,6 +113,7 @@
     gap: 1rem;
     height: auto;
     flex-direction: column;
+    text-align: center;
   }
 
   .location .location__info .right{
@@ -147,6 +148,18 @@
     flex-direction: column;
     gap: 2rem;
     text-align: center;
+  }
+
+  .location .location__info .left img{
+    width: 30rem;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .location .location__container .locationtitle{
+    font-size: 3rem;
   }
 }
 

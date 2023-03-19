@@ -82,3 +82,19 @@
 
 }
 
+@media screen and (max-width: 572px){
+  .aboutUs .overlay{
+    width: 100%;
+  }
+
+  .aboutUs .aboutUs__text{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .aboutUs .aboutUs__text h2{
+    font-size: 3rem;
+  }
+}
+

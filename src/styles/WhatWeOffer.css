@@ -82,6 +82,23 @@
   0px 18px 23px rgba(0,0,0,0.1);
 }
 
+@media screen and (max-width: 500px) {
+  .whatWeOffer .whatWeOffer__container h2, .weoffer{
+    color: var(--second-text-color);
+    font-size: 3rem;
+  }
+
+  .whatWeOffer .whatWeOffer__box{
+    height: 60vh;
+    width: 100%;
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+}
+
 
 
 

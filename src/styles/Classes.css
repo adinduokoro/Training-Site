@@ -125,7 +125,13 @@
   }
   
   .classes .right{
-    width: 100%;
+    width: 90%;
   }
   
+}
+
+@media screen and (max-width: 500px){
+  .classes .classes__container h2, .classtitle{
+    font-size: 2.5rem;
+  }
 }
