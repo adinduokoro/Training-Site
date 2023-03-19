@@ -2,7 +2,6 @@
   position: relative;
   margin-top: 129px;
   color: black;
-  background-color: green;
 }
 
 .hero img{
@@ -29,7 +28,6 @@
 .hero .hero__info{
   position: absolute;
   z-index: 5;
-  font-size: 2rem;
   top: 35%;
   left: 50%;
   transform: translate(-50%, 0);
@@ -78,4 +76,25 @@
 .hero .hero__info button:hover{
   background-color: var(--main-color);
   color: var(--bg-color);
+}
+
+@media screen and (max-width: 608px) {
+  .hero .hero__info h1{
+    font-size: 3.5rem;
+  
+  }
+  
+  .hero .hero__info h2{
+    font-size: 2.5rem;
+  }
+
+  .hero .hero__info p{
+    font-size: 1.5rem;
+  }
+
+  .hero .hero__info button{
+    width: 13rem;
+    height: 5rem;
+    font-size: 1.5rem;
+  }
 }

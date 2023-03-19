@@ -100,3 +100,9 @@
   font-size: 13px;
   color: var(--second-bg-color);
 }
+
+@media screen and (max-width: 853px) {
+  .classes .right{
+    flex: 1.25;
+  }
+}

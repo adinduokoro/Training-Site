@@ -32,7 +32,7 @@
 }
 
 .location .location__info .left{
-  flex: 3;
+  flex: 4;
   height: 100%;
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@
 
 
 .location .location__info .right{
-  flex: 2;
+  flex: 3;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -101,3 +101,16 @@
   margin-bottom: 5px;
   color: var(--text-color);
 }
+
+@media screen and (max-width: 750px){
+  .location .location__info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+  width: 100%;
+  height: 50vh;
+}
+}
+
+
