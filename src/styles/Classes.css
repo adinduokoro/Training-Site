@@ -106,3 +106,26 @@
     flex: 1.25;
   }
 }
+
+@media screen and (max-width: 657px){
+  .classes .classes__container{
+    height: auto;
+    flex-direction: column;
+    padding: 5rem 0;
+
+  }
+
+  .classes .classes__container h2, .classtitle{
+    font-size: 3.5rem;
+  }
+
+  .classes .package__container{
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .classes .right{
+    width: 100%;
+  }
+  
+}

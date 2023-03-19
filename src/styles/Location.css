@@ -19,7 +19,7 @@
   font-size: 4rem;
   font-weight: 800;
   white-space: nowrap;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .location .location__info{
@@ -45,7 +45,7 @@
 }
 
 .location .location__info .left img{
-  width: 100%;
+  width: 38rem;
   height: 100%;
   object-fit: cover;
 }
@@ -139,6 +139,14 @@
   
   .location .location__info .right .contact p{
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 531px) {
+  .location .location__info .right{
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
   }
 }
 
