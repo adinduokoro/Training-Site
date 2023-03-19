@@ -103,14 +103,43 @@
 }
 
 @media screen and (max-width: 750px){
+
+  .location .location__container{
+    height: auto;
+    padding: 5rem 0;
+  }
+    
   .location .location__info{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 5rem;
-  width: 100%;
-  height: 50vh;
-}
+    gap: 1rem;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .location .location__info .right{
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .location .location__info .right .address h2{
+    color: var(--main-color);
+    font-size: 2.5rem;
+    font-weight: 800;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+  }
+  
+  .location .location__info .right .address p{
+    font-size: 1.5rem;
+  }
+
+  .location .location__info .right .contact h2{
+    color: var(--main-color);
+    font-size: 2.5rem;
+  }
+  
+  .location .location__info .right .contact p{
+    font-size: 1.5rem;
+  }
 }
 
 
