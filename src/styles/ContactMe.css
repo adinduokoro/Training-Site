@@ -1,0 +1,151 @@
+.contactMe{
+  background-color: var(--second-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactMe .contactMe__container{
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactMe .contactMe__container h2, .amessage{
+  color: var(--second-text-color);
+  font-size: 4rem;
+  font-weight: 800;
+  white-space: nowrap;
+  margin-bottom: 3rem;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
+  0px 8px 13px rgba(0,0,0,0.1), 
+  0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.contactMe .contactMe__container .amessage{
+  color: var( --main-color);
+}
+
+.contactMe .contactMe__box{
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  width: 90%;
+}
+
+.contactMe .contactMe__left{
+  flex: 1;
+}
+
+
+.contactMe .contactMe__left form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactMe .contactMe__left input, textarea{
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 14px;
+  padding: 10px;
+  background: var(--bg-color);
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  border: 3px solid var(--main-color);
+  outline: none;
+  color: var(--main-color);
+  width: 100%;
+}
+
+.contactMe .contactMe__left textarea{
+  height: 160px;
+  resize: none;
+}
+
+.contactMe .contactMe__left input::placeholder, textarea::placeholder{
+  opacity: .75;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
+.contactMe .contactMe__left .send__alert{
+  color: #ebebeb;
+  padding-bottom: 15px;
+}
+
+.contactMe .contactMe__left .send-button {
+  height: 35px;
+  width: 150px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  background-color: var(--bg-color);
+  border: none;
+  border-radius: 13px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.contactMe .contactMe__left .alt-send-button{
+  width: 150px;
+  height: 100px;
+  transition: all .2s ease-in-out;  
+}
+
+.contactMe .contactMe__left .alt-send-button:hover{
+  transform: translate3d(0px, -35px, 0px);
+}
+
+.contactMe .contactMe__left .alt-send-button i{
+  font-size: 2.5rem;
+}
+
+.contactMe .contactMe__left .send-text {
+  display: block;
+  padding: 20px 0 25px 0;
+  font: 800 12px 'Lato', sans-serif;
+  letter-spacing: 1px;
+  color: var(--main-color);
+
+}
+
+.contactMe .contactMe__right{
+  flex: 1;
+  border: 5px solid green;
+}
+
+/* 
+
+
+.contactMe .contact-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactMe .contact-list li{
+  line-height: 5;
+  color: #ffd700;
+  scale: 1.5;
+}
+
+
+.contactMe .contact-list li span{
+  letter-spacing: 1.9px;
+  margin-left: 1rem;
+}
+
+.contactMe .contact-list li a{
+  text-decoration: none;
+  color: #ffd700;
+}
+
+.contactMe .copyright{
+  color: #ebebeb;
+  text-align: center;
+  font-size: 12px;
+} */
+

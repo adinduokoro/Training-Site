@@ -5,7 +5,7 @@ import WhatWeOffer from "./components/WhatWeOffer";
 import Classes from "./components/Classes";
 import Location from "./components/Location";
 import Gallery from "./components/Gallery";
-import Contact from "./components/Contact";
+import ContactMe from "./components/ContactMe";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Classes />
       <Gallery />
       <Location />
-      <Contact />
+      <ContactMe />
     </div>
   );
 }
