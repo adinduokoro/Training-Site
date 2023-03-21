@@ -6,9 +6,9 @@ const NavbarTop = () => {
     <div className='navbarTop' id='home'>
       <div className="navbarTop__contact">
         <p>+1 443-630-3752</p>
-        <p>washington-direct@gmail.com</p>
+        <p>wdftraining@yahoo.com</p>
       </div>
-      <i className='bx bxl-instagram-alt'></i>
+      <a href="https://www.instagram.com/washington_firearm_training/" target="_blank"><i className='bx bxl-instagram-alt'></i></a>
     </div>
   )
 }

@@ -23,7 +23,7 @@ const Location = () => {
             <div className="contact">
               <h2>CONTACT:</h2>
               <p>+1 443-630-3752</p>
-              <p>washington-direct@gmail.com</p>
+              <p style={{ letterSpacing: "3px" }}>wdftraining@yahoo.com</p>
             </div>
           </div>
         </div>

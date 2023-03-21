@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/ContactMe.css'
 import axios from 'axios'
+import SocialIcons from './SocialIcons'
 
 
 const Contact = () => {
@@ -59,7 +60,24 @@ const Contact = () => {
             </form>
           </div>
           <div className="contactMe__right">
-            
+            <div className="contactMe__info">
+              <div className="contactMe__address">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Timonium, MD</p>
+              </div>
+              <div className="contactMe__phone">
+                <i class="fa-solid fa-phone"></i>
+                <p>1 443-630-3752</p>
+              </div>
+            </div>
+            <hr/>
+            <div className="contactMe__socialIcons">
+              <SocialIcons />
+            </div>
+            <hr/>
+            <div className='contactMe__copyright'>
+              &copy; ALL OF THE RIGHTS RESERVED
+            </div>
           </div>
         </div>
       </div>

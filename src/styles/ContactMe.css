@@ -113,39 +113,96 @@
 
 .contactMe .contactMe__right{
   flex: 1;
-  border: 5px solid green;
-}
-
-/* 
-
-
-.contactMe .contact-list{
-  list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-.contactMe .contact-list li{
-  line-height: 5;
-  color: #ffd700;
-  scale: 1.5;
+.contactMe .contactMe__right .contactMe__info{
+  display: flex;
+  flex-direction: column;
+  font-family: "Font Awesome 6 Free" , sans-serif;
+}
+
+.contactMe .contactMe__right .contactMe__address{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.contactMe .contactMe__right .contactMe__address i{
+  scale: 3.5;
+  padding-right: 10px;
+  
+}
+
+.contactMe .contactMe__right .contactMe__address p{
+  font-size: 2rem;
+  white-space: nowrap;
+  letter-spacing: 5px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
+  0px 8px 13px rgba(0,0,0,0.1), 
+  0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.contactMe .contactMe__right hr{
+  width: 50%;
+  margin: 20px 0;
+  height: 2px;
+  border: 2.5px solid var(--main-color);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.contactMe .contactMe__right .contactMe__phone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  
+}
+
+.contactMe .contactMe__right .contactMe__phone i{
+  scale: 3.5;
+  padding-right: 10px; 
+}
+
+.contactMe .contactMe__right .contactMe__phone p{
+  font-size: 2rem;
+  letter-spacing: 2.5px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
+  0px 8px 13px rgba(0,0,0,0.1), 
+  0px 18px 23px rgba(0,0,0,0.1);
+  white-space: nowrap;
 }
 
 
-.contactMe .contact-list li span{
-  letter-spacing: 1.9px;
-  margin-left: 1rem;
-}
 
-.contactMe .contact-list li a{
-  text-decoration: none;
-  color: #ffd700;
-}
-
-.contactMe .copyright{
+.contactMe .contactMe__right .contactMe__copyright{
   color: #ebebeb;
   text-align: center;
+  padding: 15px;
   font-size: 12px;
-} */
+}
+
+@media screen and (max-width:768px) {
+
+  .contactMe .contactMe__container{
+    height: auto;
+    padding: 5rem 0;
+  }
+
+  .contactMe .contactMe__container h2, .amessage{
+    font-size: 3rem;
+    white-space: nowrap;
+    margin-bottom: 5rem;
+  }
+  
+
+  .contactMe .contactMe__box{
+    flex-direction: column;
+    width: 75%;
+  }
+}
 
