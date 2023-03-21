@@ -5,6 +5,17 @@ import img4 from './images/wear-renewal.jpg'
 import img5 from './images/security-guard.jpg'
 import img6 from './images/hql-cert.jpg'
 
+import galleryImages1 from '../src/images/GalleryImages/gallery-img1.jpg'
+import galleryImages2 from '../src/images/GalleryImages/gallery-img2.jpg'
+import galleryImages3 from '../src/images/GalleryImages/gallery-img3.jpg'
+import galleryImages4 from '../src/images/GalleryImages/gallery-img4.jpg'
+import galleryImages5 from '../src/images/GalleryImages/gallery-img5.jpg'
+import galleryImages6 from '../src/images/GalleryImages/gallery-img6.jpg'
+import galleryImages7 from '../src/images/GalleryImages/gallery-img7.jpg'
+import galleryImages8 from '../src/images/GalleryImages/gallery-img8.jpg'
+import galleryImages9 from '../src/images/GalleryImages/gallery-img9.jpg'
+
+
 export const nav = [
   {
     text: "HOME",
@@ -84,17 +95,43 @@ export const classes = [
 
 export const images = [
   {
-    original: 'https://picsum.photos/id/1018/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1018/250/150/',
+    original: galleryImages1,
+    thumbnail: galleryImages1,
   },
   {
-    original: 'https://picsum.photos/id/1015/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1015/250/150/',
+    original: galleryImages2,
+    thumbnail: galleryImages2,
   },
   {
-    original: 'https://picsum.photos/id/1019/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    original: galleryImages3,
+    thumbnail: galleryImages3,
   },
+  {
+    original: galleryImages4,
+    thumbnail: galleryImages4,
+  },
+  {
+    original: galleryImages5,
+    thumbnail: galleryImages5,
+  },
+  {
+    original: galleryImages6,
+    thumbnail: galleryImages6,
+  },
+  {
+    original: galleryImages7,
+    thumbnail: galleryImages7,
+  },
+  {
+    original: galleryImages8,
+    thumbnail: galleryImages8,
+  },
+  {
+    original: galleryImages9,
+    thumbnail: galleryImages9,
+  },
+
+  
 ];
 
 export default { nav , service , classes ,images }

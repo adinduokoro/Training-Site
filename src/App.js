@@ -6,6 +6,7 @@ import Classes from "./components/Classes";
 import Location from "./components/Location";
 import Gallery from "./components/Gallery";
 import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Gallery />
       <Location />
       <ContactMe />
+      <Footer />
     </div>
   );
 }
