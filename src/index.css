@@ -21,7 +21,6 @@
 
 html {
   position: relative;
-  min-width: 425px; 
 }
 
 section{
@@ -38,9 +37,15 @@ p {
   font-weight: 500;
 }
 
+.App{
+  overflow-x: hidden;
+  --bg-color: #000;
+  min-width: 425px;
+
+}
+
 
 body {
-  overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
   background-color: var(--bg-color);

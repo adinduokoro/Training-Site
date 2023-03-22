@@ -8,7 +8,12 @@ const NavbarTop = () => {
         <p>+1 443-630-3752</p>
         <p>wdftraining@yahoo.com</p>
       </div>
-      <a href="https://www.instagram.com/washington_firearm_training/" target="_blank"><i className='bx bxl-instagram-alt'></i></a>
+      <div>
+        <a href="https://www.instagram.com/washington_firearm_training/" target="_blank"><i className='bx bxl-instagram-alt'></i>
+        </a>
+        <a href="https://mobile.twitter.com/wdftraining/" target="_blank"><i class='bx bxl-twitter'></i></a>
+        <a href="https://facebook.com/" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+      </div>
     </div>
   )
 }
