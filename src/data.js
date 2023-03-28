@@ -5,7 +5,7 @@ import img4 from './images/wear-renewal.jpg'
 import img5 from './images/security-guard.jpg'
 import img6 from './images/hql-cert.jpg'
 
-import galleryImages1 from '../src/images/GalleryImages/gallery-img1.jpg'
+import galleryImages1 from '../src/images/GalleryImages/gallery-img1.png'
 import galleryImages2 from '../src/images/GalleryImages/gallery-img2.jpg'
 import galleryImages3 from '../src/images/GalleryImages/gallery-img3.jpg'
 import galleryImages4 from '../src/images/GalleryImages/gallery-img4.jpg'
@@ -13,7 +13,7 @@ import galleryImages5 from '../src/images/GalleryImages/gallery-img5.jpg'
 import galleryImages6 from '../src/images/GalleryImages/gallery-img6.jpg'
 import galleryImages7 from '../src/images/GalleryImages/gallery-img7.jpg'
 import galleryImages8 from '../src/images/GalleryImages/gallery-img8.jpg'
-import galleryImages9 from '../src/images/GalleryImages/gallery-img9.jpg'
+import galleryImages9 from '../src/images/GalleryImages/gallery-img9.png'
 
 
 export const nav = [

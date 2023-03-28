@@ -18,7 +18,7 @@ const Location = () => {
               <h2>ADDRESS:</h2>
               <p>8 East Seminary Ave</p>
               <p>Timonium, MD 21093</p>
-              <p>Monday - Sunday: 10am - 8pm</p>
+              <p>Monday - Sunday: 9am - 5pm EST</p>
             </div>
             <div className="contact">
               <h2>CONTACT:</h2>

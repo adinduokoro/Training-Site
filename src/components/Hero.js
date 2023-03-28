@@ -5,7 +5,9 @@ import heroImg from '../images/hero-pic.jpg'
 const Hero = () => {
   return (
     <section className="hero">
-      <img src={heroImg} alt="" />
+      <div className='hero__img'>
+        <img src={heroImg} alt="" />
+      </div>
       <div className="overlay"></div>
       <div className="hero__info">
         <h1>WASHINGTON'S DIRECT</h1>

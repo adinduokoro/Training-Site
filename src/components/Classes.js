@@ -30,7 +30,7 @@ const Classes = () => {
             })}
           </div> 
         </div>
-        <p className="disclaimer">*Fingerprints are required to be done prior to class.<br/> MD state police has $75.00 (wear and cary) $50.00 (HQL) application fee*</p>
+        <p className="disclaimer">*Fingerprints are required to be done prior to class.<br/> MD state police has $75.00 (wear and cary) $50.00 (HQL) application fee* <br/><br/> ***PRICES MAY VARY***</p>
       </div>
     </section>
   )
