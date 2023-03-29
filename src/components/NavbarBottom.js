@@ -48,7 +48,7 @@ const NavbarBottom = () => {
             )
           })
         }
-        <button>BOOK NOW</button>
+        <a href='https://squareup.com/appointments/book/yha7kyt9bges4o/LD5ANTB6PMASK/services' target="_blank"><button>BOOK NOW</button></a>
       </ul>
 
       {/* MOBILE MENU */}

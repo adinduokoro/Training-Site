@@ -13,7 +13,7 @@ const Hero = () => {
         <h1>WASHINGTON'S DIRECT</h1>
         <h2>FIREARMS TRAINING</h2>
         <p>Qualified Instructors Teaching Safety and Defense Skills</p>
-        <button>BOOK NOW</button>
+        <a href='https://squareup.com/appointments/book/yha7kyt9bges4o/LD5ANTB6PMASK/services' target="_blank"><button>BOOK NOW</button></a>
       </div>
     </section>
   )
