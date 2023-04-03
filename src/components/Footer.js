@@ -6,8 +6,7 @@ const Footer = () => {
     <div className='info'>
       <div className="info__container">
         <div className="info__text">
-          <p>WDFTRAINING holds limited space and many of our classes sell out. For this reason, we request that you cancel and/or reschedule at least 72 hours before class. This will allow us to offer your spot to another consumer.</p>
-          <p>Please note if you cancel all deposits are non-refundable and if you are rescheduling its only permitted one time only.</p>
+          <p>WDFTRAINING is able to accommodate all of our customers with limited spacing and availability, so we ask that you cancel and/or reschedule at least 72 hours before the scheduled class. While deposits are non-refundable, we do offer a one-time courtesy reschedule at no additional cost to you!</p>
         </div>
       </div>
     </div>

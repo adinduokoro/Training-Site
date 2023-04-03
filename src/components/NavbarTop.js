@@ -5,8 +5,8 @@ const NavbarTop = () => {
   return (
     <div className='navbarTop' id='home'>
       <div className="navbarTop__contact">
-        <p>+1 443-630-3752</p>
-        <p>wdftraining@yahoo.com</p>
+        <a href="tel:+14436303752"><p>+1 443-630-3752</p></a>
+        <a href="mailto:wdftraining@yahoo.com"><p>wdftraining@yahoo.com</p></a>
       </div>
       <div>
         <a href="https://www.instagram.com/washington_firearm_training/" target="_blank"><i className='bx bxl-instagram-alt'></i>
